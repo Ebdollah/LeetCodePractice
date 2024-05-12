@@ -1,0 +1,22 @@
+Description:
+Given an encoded string, return its modified decoded string following the decoding and modification rules below.
+
+The decoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer.
+
+After decoding, every vowel (a, e, i, o, u) in the decoded string should be replaced with the next vowel in the sequence (a -> e, e -> i, i -> o, o -> u, u -> a), and every consonant should be replaced with the next consonant in alphabetical order (z wraps around to a).
+
+Constraints:
+1 <= s.length <= 30
+s consists of lowercase English letters, digits, and square brackets '[]'.
+s is guaranteed to be a valid input.
+All the integers in s are in the range [1, 300].
+Examples:
+Input: s = "3[a]2[bc]" Output: "eeecdcd" Explanation: After decoding, the string is "aaabcbc". After modifying vowels and consonants, "aaa" becomes "eee", "b" becomes "c", and "c" becomes "d", resulting in "eeecdcd".
+
+Input: s = "3[a2[c]]" Output: "eddeddedd" Explanation: After decoding, the string is "accaccacc". Each "a" becomes "e", "c" becomes "d", resulting in "eddeddedd".
+
+Input: s = "2[abc]3[cd]ef" Output: "ecdecddfdfdfig" Explanation: After decoding, "abcabccdcdcdef", after modifications, it becomes "ecdecddfdfdfig".
+
+
+
+Answer:(penalty regime: 0 %)

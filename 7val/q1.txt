@@ -1,0 +1,20 @@
+Objective: Given an integer n, your task is to convert it to binary and then find the maximum number of consecutive 
+1's in its binary representation.
+
+Input:
+
+The input consists of a single integer n, where 1 <= n <= 10^6.
+Output:
+
+Return a single integer representing the maximum number of consecutive 1's in the binary representation of n.
+Example:
+
+Input: 13
+
+Output: 2
+
+Explanation: The binary representation of 13 is 1101, which has a maximum of two consecutive 1s.
+
+
+
+Answer:(penalty regime: 0 %)
